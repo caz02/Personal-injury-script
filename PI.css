@@ -1,0 +1,209 @@
+body{
+
+  font-family: 'Libre Baskerville, serif'
+}
+
+
+img{
+width:90vw;
+}
+area{
+  position:  relative;
+  width: 1200px;
+  max-width:90vw;
+}
+
+main {
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+img[usemap] {
+    border: none;
+    height: auto;
+    max-width: 100%;
+    width: auto;
+}
+
+h2 {
+  color:#62be00;
+  font-size: 20px;
+}
+
+p {
+  font-size: 16px;
+}
+
+/*head popup feature*/
+
+div#map { width:900px;
+  height:800px;
+}
+
+div#popup1 { width:200px;
+  height:100px;
+  background-color: rgba(100, 100, 100, 0.9);
+  color: white;
+  position:absolute;
+  margin-top:-760px;
+  margin-left:260px;
+}
+
+div#popup2 { width:200px;
+  height:100px;
+  background-color: rgba(100, 100, 100, 0.9);
+  color: white;
+  position:absolute;
+  margin-top:-700px;
+  margin-left:240px;
+}
+
+div#popup3 { width:200px;
+  height:100px;
+  background-color: rgba(100, 100, 100, 0.9);
+  color: white;
+  padding-bottom:30px;
+  position:absolute;
+  margin-top:-700px;
+  margin-left:220px;
+}
+
+div#popup3 { width:200px;
+  height:100px;
+  background-color: rgba(100, 100, 100, 0.9);
+  color: white;
+  padding-bottom:30px;
+  position:absolute;
+  margin-top:-700px;
+  margin-left:220px;
+}
+
+div#popup4 { width:200px;
+  height:100px;
+  background-color: rgba(100, 100, 100, 0.9);
+  color: white;
+  padding-bottom:20px;
+  position:absolute;
+  margin-top:-700px;
+  margin-left:220px;
+}
+
+div#popup5 { width:200px;
+  height:100px;
+  background-color: rgba(100, 100, 100, 0.9);
+  color: white;
+  padding-bottom: 90px;
+  position:absolute;
+  margin-top:-600px;
+  margin-left:165px;
+}
+
+div#popup6 { width:200px;
+  height:100px;
+  background-color: rgba(100, 100, 100, 0.9);
+  color: white;
+  position:absolute;
+  margin-top:-544px;
+  margin-left:170px;
+}
+
+
+div#popup7 { width:200px;
+  height:100px;
+  background-color: rgba(100, 100, 100, 0.9);
+  color: white;
+  position:absolute;
+  margin-top:-480px;
+  margin-left:100px;
+}
+
+div#popup8 { width:200px;
+  height:100px;
+  background-color: rgba(100, 100, 100, 0.9);
+  color: white;
+  position:absolute;
+  margin-top:-480px;
+  margin-left:100px;
+}
+
+div#popup9 { width:200px;
+  height:100px;
+  background-color: rgba(100, 100, 100, 0.9);
+  color: white;
+  position:absolute;
+  margin-top:-480px;
+  margin-left:100px;
+}
+
+div#popup10 { width:200px;
+  height:100px;
+  background-color: rgba(100, 100, 100, 0.9);
+  color: white;
+  position:absolute;
+  padding-bottom: 90px;
+  margin-top:-480px;
+  margin-left:300px;
+}
+
+div#popup11 { width:200px;
+  height:100px;
+  background-color: rgba(100, 100, 100, 0.9);
+  color: white;
+  position:absolute;
+  padding-bottom: 90px;
+  margin-top:-480px;
+  margin-left:300px;
+}
+
+div#popup12 { width:200px;
+  height:100px;
+  background-color: rgba(100, 100, 100, 0.9);
+  color: white;
+  position:absolute;
+  margin-top:-270px;
+  margin-left:100px;
+}
+
+div#popup13 { width:200px;
+  height:100px;
+  background-color: rgba(100, 100, 100, 0.9);
+  color: white;
+  position:absolute;
+  margin-top:-100px;
+  margin-left:100px;
+}
+
+div#popup14 { width:200px;
+  height:100px;
+  background-color: rgba(100, 100, 100, 0.9);
+  color: white;
+  position:absolute;
+  margin-top:-100px;
+  margin-left:300px;
+}
+
+div#popup15 { width:200px;
+  height:100px;
+  background-color: rgba(100, 100, 100, 0.9);
+  color: white;
+  position:absolute;
+  margin-top:-100px;
+  margin-left:300px;
+}
+
+.popup1 > .close {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  background-color: black;
+  padding: 4px 10px;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
